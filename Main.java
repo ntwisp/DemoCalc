@@ -37,7 +37,7 @@ public class Main {
         return String.valueOf(res);
     }
 
-    private static int number(String s) throws Exception {
+     static int number(String s) throws Exception {
         try {
             int number = Integer.parseInt(s);
             if (number < 1 || number > 10) {
